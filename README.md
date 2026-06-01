@@ -14,7 +14,9 @@ Autoencoder + LatentClassifier	0.0060	0.2968	0.8926 (~89%)
 CNN Baseline (raw pixels)	–	0.0443	0.9849 (~98%)
 
 🚀 How to Run
+
 git clone https://github.com/chong2006s/Fashion-Autoencoder-Classifer.git
+
 cd Fashion-Autoencoder-Classifer
 
 pip install -r requirement.txt
