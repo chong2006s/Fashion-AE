@@ -5,9 +5,9 @@ class Encoder(nn.Module):
     def __init__(self):
         super().__init__()
         self.encoder = nn.Sequential(
-            nn.Conv2d(1, 16, 3, stride=2, padding=1),  # 28x28 -> 14x14
+            nn.Conv2d(1, 16, 3, stride=2, padding=1),  # 28x28 to 14x14
             nn.ReLU(),
-            nn.Conv2d(16, 32, 3, stride=2, padding=1), # 14x14 -> 7x7
+            nn.Conv2d(16, 32, 3, stride=2, padding=1), # 14x14 to 7x7
             nn.ReLU()
         )
 
